@@ -20,11 +20,11 @@ namespace TechJobs.ViewModels
         public int LocationID { get; set; }
 
         [Required]
-        [Display(Name = "CoreCompetency")]
+        [Display(Name = "Skill")]
         public int CoreCompetencyID { get; set; }
 
         [Required]
-        [Display(Name = "PositionType")]
+        [Display(Name = "Position Type")]
         public int PositionTypeID { get; set; }
 
         // #3 - Included other fields needed to create a job,
